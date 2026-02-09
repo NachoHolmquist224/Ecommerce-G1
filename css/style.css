@@ -3,3 +3,7 @@
 .bg-icono {
 background-color: black;
 }
+.icono-hover:hover {
+  color: #0d6efd; /* Cambia al color deseado, ej. azul primary */
+  cursor: pointer;
+}

@@ -14,8 +14,64 @@
      <main>
       <section class="bg-primary-subtle py-4">
         <h1 class="titulo text-center">Contacto</h1>
-        <div class="row row-gap-3"></div>
-        <div class="col-12 col-md-6"></div>
+        <div class="row"></div>
+        <div class="col-12 col-md-8 col-lg-6 mx-auto"></div>
+
+        <form autocomplete="off">
+              <div class="mb-3">
+                <label for="nombre" class="form-label"
+                  >Nombre y apellido *</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nombre"
+                  placeholder="Juan Perez"
+                  minlength="3"
+                  maxlength="100"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email *</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="juanperez@mail.com"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="telefono" class="form-label">Telefono</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="telefono"
+                  placeholder="+54388222999"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="contacto" class="form-label"
+                  >Ingrese su consulta *</label
+                >
+                <textarea
+                  class="form-control"
+                  id="contacto"
+                  rows="3"
+                  required
+                  placeholder="Agrega tu consulta de hasta 500 caracteres"
+                ></textarea>
+              </div>
+              <div class="form-text">
+                <p>Los campos con (*) son obligatorios</p>
+              </div>
+              <button class="btn btn-primary" type="submit">Enviar</button>
+            </form>
+          </div>
+        
+        </div>
+      </section>
       </section>
 
      </main>

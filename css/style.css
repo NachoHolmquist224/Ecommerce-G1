@@ -3,7 +3,13 @@
 .bg-icono {
 background-color: black;
 }
+<<<<<<< HEAD
 
 .bg-footer{
 background-color: #021a26;
+=======
+.icono-hover:hover {
+  color: #0d6efd; /* Cambia al color deseado, ej. azul primary */
+  cursor: pointer;
+>>>>>>> 70e26b8b78b71917787308986ccdc672a68d7605
 }

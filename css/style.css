@@ -3,13 +3,36 @@
 .bg-icono {
 background-color: black;
 }
-<<<<<<< HEAD
-
 .bg-footer{
 background-color: #021a26;
-=======
 .icono-hover:hover {
   color: #0d6efd; /* Cambia al color deseado, ej. azul primary */
   cursor: pointer;
->>>>>>> 70e26b8b78b71917787308986ccdc672a68d7605
 }
+}
+/* Dispositivos Medianos (Tablets/Laptops) */
+        @media (min-width: 768px) {
+            .login-image-container, .login-form-container {
+                height: 650px; /* Misma altura solo desde tablets en adelante */
+            }
+            .login-img {
+                height: 100%;
+                object-fit: cover;
+                 }
+            }
+
+        /* Dispositivos Grandes (Monitor Desktop) */
+        @media (min-width: 992px) {
+            .login-image-container {
+                /* Aquí abarca más proporción de la columna gracias al col-lg-6 */
+            }
+        }
+
+        /* Dispositivos Pequeños (Móviles) */
+        @media (max-width: 767px) {
+            .login-img {
+                height: 300px; /* Imagen más baja para que no ocupe toda la pantalla del cel */
+                object-fit: cover;
+              }
+            
+        }

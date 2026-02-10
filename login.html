@@ -1,51 +1,64 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Proyecto Final del Módulo 1 de Desarrollo frontend">
-    <meta name="authors" content="Gabriel Funes, Florencia Navarro, Karina Miranda, Marcela Toledo, Ignacio Holmquist">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Proyecto Final del Módulo 1 de Desarrollo frontend"
+    />
+    <meta
+      name="authors"
+      content="Gabriel Funes, Florencia Navarro, Karina Miranda, Marcela Toledo, Ignacio Holmquist"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Avant Sport</title>
-</head>
-<body>
-    <main class="container-fluid">
-        <div class="row min-vh-100">
-        <div class="col-md-6">
-                <img src="./images/loguin.png"  class="img-fluid h-100 w-100"  alt="cliente logueandose">
-        </div>
-        <div class="col-md-6 d-flex flex-column align-items-center justify-content-center p-5 "> 
-            <div class=" mb-4 text-center">
-              <img src="./images/Logo AS.png" alt="Avant logo" style="max-width: 300px;">
+  </head>
+  <body>
+    <main class="container-fluid p-0">
+        <div class="row min-vh-100 g-0 align-items-center justify-content-center py-4 py-md-0">
+        <div class="col-12 col-md-6 col-lg-6 login-image-container ">
+           <img src="./images/loguin.png" class="img-fluid  w-100 login-img" alt="cliente logueandose" />
             </div>
-        <div class="text-center mb-4">
-            <h2 class="fuente text-primary">Bienvenido nuevamente </h2>
-        <p class="text-secondary">Ingresa a tu cuenta para continuar</p>
+          <div class="col-12 col-md-6 col-lg-6 d-flex flex-column align-items-center justify-content-center p-4 p-lg-5 login-form-container">
+          <div class="w-100" style="max-width:350px;">
+            <div class="mb-4 text-center">      
+            <img src="./images/Logo AS.png"  alt="Avant logo" class="img-fluid" style ="max-width: 150px;">
+          </div>
+          <div class="text-center mb-4">
+            <h2 class="fuente text-primary">Bienvenido nuevamente</h2>
+            <p class="text-secondary">Ingresa a tu cuenta para continuar</p>
+          </div>
+          <form
+            action="./pages/error404.html" class="w-100" style="max-width: 400px" >
+            <div class="mb-3">
+              <label class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" required placeholder="nombre@ejemplo.com" />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Contraseña</label>
+              <input type="password" class="form-control" required />
+            </div>
+            <div class="d-grid gap-2">
+              <button type="submit" class="btn btn-primary">Ingresar</button>
+            </div>
+            <div class="text-center mt-3">
+              <a href="./pages/error404.html" class="text-decoration-none small text-secondary" >¿Olvidaste tu contraseña?</a >
+            </div>
+          </form>
         </div>
-        <form action="./pages/error404.html" class="w-100" style="max-width: 400px;">
-                    <div class="mb-3">
-                        <label class="form-label">Correo Electrónico</label>
-                        <input type="email" class="form-control" required placeholder="nombre@ejemplo.com">
-                    </div>
-                    <div class="mb-3">
-                        <label class="form-label">Contraseña</label>
-                        <input type="password" class="form-control" required>
-                    </div>
-                    <div class="d-grid gap-2">
-                        <button type="submit" class="btn btn-primary">Ingresar</button>
-                    </div>
-                    
-                    <div class="text-center mt-3">
-                        <a href="./pages/error404.html" class="text-decoration-none small text-secondary">¿Olvidaste tu contraseña?</a>
-                    </div>
-
-                </form>
-
-
-        </div>
-        </div>
-     </main> 
-</body>
+      </div>
+    </div>
+    </main>
+  </body>
 </html>

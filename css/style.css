@@ -10,7 +10,7 @@ background-color: #021a26;
   cursor: pointer;
 }
 }
-/* Dispositivos Medianos (Tablets/Laptops) */
+/* Dispositivos Medianos */
         @media (min-width: 768px) {
             .login-image-container, .login-form-container {
                 height: 650px; /* Misma altura solo desde tablets en adelante */

@@ -7,3 +7,12 @@ background-color: black;
 .bg-footer{
 background-color: #021a26;
 }
+  background-color: black;
+}
+.icono-hover:hover {
+  color: #0d6efd; /* Cambia al color deseado, ej. azul primary */
+  cursor: pointer;
+}
+.w-15 {
+  width: 15%;
+}

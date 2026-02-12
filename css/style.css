@@ -23,3 +23,14 @@ background-color: #021a26;
 .formulario-contacto .btn-primary {
   border: 2px solid white;
 }
+.btn-enviar {
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+  transition:  500;
+}
+
+.btn-enviar:hover {
+  background-color: #89d5da;
+  color: white;
+}

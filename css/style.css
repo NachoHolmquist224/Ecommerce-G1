@@ -3,7 +3,6 @@
 .bg-icono {
 background-color: black;
 }
-
 .bg-footer{
 background-color: #021a26;
 }
@@ -33,4 +32,11 @@ background-color: #021a26;
 .btn-enviar:hover {
   background-color: #89d5da;
   color: white;
+}
+.btn-avant {
+  background-color: #468189;
+
+}
+.btn.avant:hover {
+background-color: #77ACA2;
 }

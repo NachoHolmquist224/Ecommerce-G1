@@ -1,25 +1,17 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
-/* Dispositivos Medianos */
-        @media (min-width: 768px) {
-            .login-image-container, .login-form-container {
-                height: 650px; /* Misma altura solo desde tablets en adelante */
-            }
-            .login-img {
-                height: 100%;
-                object-fit: cover;
-                 }
-            }
 
-        /* Dispositivos Grandes (Monitor Desktop) */
-        @media (min-width: 992px) {
-          
-        }
+.bg-icono {
+background-color: black;
+}
+.bg-footer{
+background-color: #021a26;
+}
+ 
+.icono-hover:hover {
+  color: #0d6efd; /* Cambia al color deseado, ej. azul primary */
+  cursor: pointer;
+}
+.w-15 {
+  width: 15%;
+}
 
-        /* Dispositivos Pequeños (Móviles) */
-        @media (max-width: 767px) {
-            .login-img {
-                height: 300px; /* Imagen más baja para que no ocupe toda la pantalla del cel */
-                object-fit: cover;
-              }
-            
-        } 

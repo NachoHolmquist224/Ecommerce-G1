@@ -1,16 +1,30 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Proyecto Final del Módulo 1 de Desarrollo frontend">
-    <meta name="authors" content="Gabriel Funes, Florencia Navarro, Karina Miranda, Marcela Toledo, Ignacio Holmquist">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Proyecto Final del Módulo 1 de Desarrollo frontend"
+    />
+    <meta
+      name="authors"
+      content="Gabriel Funes, Florencia Navarro, Karina Miranda, Marcela Toledo, Ignacio Holmquist"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Avant Sport</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
       <nav class="navbar navbar-expand-lg" style="background-color: #77aca2">
         <div class="container-fluid">
@@ -85,16 +99,87 @@
       </nav>
     </header>
     <main>
-       <div class="row">
-           <div class=" col-12 col-md-6 col-lg-6 login-image-container">
-                 <img src="../images/loguin.png" alt="cliente loguenadose" class="img-fluid  w-100 login-img" >
-           </div>
-           <div class="col-12 col-md-6 col-lg-6 ">
-            <div class="mb-4 text-center" >
-                <img src="../images/Logo AS.png " alt="Avant logo" class="img-fluid" style ="max-width: 250px;">
+      <div class="row min-vh-100 g-0 align-items-center justify-content-center  ">
+        <div class="col-12 col-md-6 col-lg-6 login-image-container ">
+          <img
+            src="../images/loguin.png"
+            alt="cliente loguenadose"
+            class="img-fluid w-100 login-img"
+          />
+        </div>
+        <div class="col-12 col-md-6 col-lg-6">
+          <div class="mb-4 text-center">
+            <img
+              src="../images/Logo AS.png "
+              alt="Avant logo"
+              class="img-fluid"
+              style="max-width: 250px"
+            />
+          </div>
+          <div class="text-center mb-4" style="color: #468189">
+            <h2>Bienvenido nuevamente</h2>
+            <p class="text-secondary">Ingresa a tu cuenta para continuar</p>
+          </div>
+          <form>
+            <div class="mb-3">
+              <label class="form-label">Correo Electrónico</label>
+              <input
+                type="email"
+                class="form-control"
+                required
+                placeholder="nombre@ejemplo.com"
+              />
             </div>
-       </div>
-       </div>
+            <div class="mb-3">
+              <label class="form-label">Contraseña</label>
+              <input type="password" class="form-control" required />
+            </div>
+            <ul class="list-unstyled small" style="line-height: 1.2">
+              <li>8 digitos</li>
+              <li>Mayusculas y minuscula</li>
+              <li>un caracter especial</li>
+            </ul>
+            <div class="d-grid gap-2">
+              <button
+                type="submit"
+                class="btn btn-primary"
+                style="
+                  --bs-btn-bg: #468189;
+                  --bs-btn-hover-bg: #052c42;
+                  --bs-btn-hover-border-color: #052c42;
+                "
+              >
+                Ingresar
+              </button>
+              <div class="position-relative my-4 text-center">
+                <hr class="text-secondary opacity-25" />
+                <span
+                  class="position-absolute top-50 start-50 translate-middle bg-white px-3 text-secondary small"
+                  >O ingresá con</span
+                >
+              </div>
+              <div class="row g-2">
+                <div class="col-6">
+                  <a
+                    href="./pages/error404.html"
+                    class="btn w-100 d-flex align-items-center justify-content-center py-2 shadow-sm"
+                  >
+                    <i class="bi bi-google me-2"> </i> Google
+                  </a>
+                </div>
+                <div class="col-6">
+                  <a
+                    href="./pages/error404.html"
+                    class="btn w-100 d-flex align-items-center justify-content-center py-2 shadow-sm"
+                  >
+                    <i class="bi bi-facebook me-2"></i> Facebook
+                  </a>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
     </main>
     <footer
       class="bg-footer text-white d-flex flex-column align-items-center justify-content-center p-3 bg-black"
@@ -129,7 +214,7 @@
       </div>
       <div class="w-100 row">
         <div class="col-md-5 d-flex justify-content-center align-items-center">
-          <img 
+          <img
             src="../images/Logo AS.png"
             alt="Logo de Avant Sport"
             class="w-100"
@@ -163,5 +248,5 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
-</body>
-</html> 
+  </body>
+</html>

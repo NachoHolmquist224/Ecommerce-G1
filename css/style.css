@@ -14,4 +14,10 @@ background-color: #021a26;
 .w-15 {
   width: 15%;
 }
+.btn-avant {
+  background-color: #468189;
 
+}
+.btn.avant:hover {
+background-color: #77ACA2;
+}

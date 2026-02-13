@@ -15,4 +15,13 @@ background-color: #021a26;
 .w-15 {
   width: 15%;
 }
+.btn-finalizar {
+    background-color: #468189;
+    border-color: #468189;
+}
 
+.btn-finalizar:hover {
+    background-color: #356269; /* Un tono más oscuro para el efecto al pasar el mouse */
+    border-color: #356269;
+    color: white;
+}

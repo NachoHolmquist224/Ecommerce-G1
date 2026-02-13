@@ -26,21 +26,21 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg" style="background-color: #77aca2">
+      <nav class="navbar navbar-expand-lg bg-principal">
         <div class="container-fluid">
           <img class="w-15" src="../images/logo AS.png" alt="Logo" />
           <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
+            data-bs-target="idnavbar"
+            aria-controls="idnavbar"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse" id="idnavbar">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link fs-5" aria-current="page" href="#"
@@ -99,12 +99,12 @@
       </nav>
     </header>
     <main>
-      <h3 class="text-center fs-1 btn-avant fw-bold pb-4"></h3>
-      
       <div class="container">
         <div class="row">
-          <h3 class="col-12">Gracias por Registarte, por favor completa todos tus datos</h3>
-          <form class=" mb-2 col-12 col-md-6 col-lg-6">
+          <h3 class="col-12 text-center mt-4 text-color">
+            Gracias por Registarte, por favor completa todos tus datos
+          </h3>
+          <form class="mb-2 col-12 col-md-6 col-lg-6">
             <div class="">
               <label class="form-label">Nombre</label>
               <input
@@ -115,7 +115,7 @@
                 required
               />
             </div>
-            <div class="mb-2 ">
+            <div class="mb-2">
               <label class="form-label">Apellido</label>
               <input
                 type="text"
@@ -125,7 +125,7 @@
                 required
               />
             </div>
-            <div class="mb-2 ">
+            <div class="mb-2">
               <label class="form-label">Usuario</label>
               <div class="input-group">
                 <span class="input-group-text" id="idarroba">@</span>
@@ -138,11 +138,11 @@
                 />
               </div>
             </div>
-            <div class="mb-2 ">
+            <div class="mb-2">
               <label class="form-label">Ciudad</label>
               <input type="text" class="form-control" id="Idcity" required />
             </div>
-            <div class="mb-2 ">
+            <div class="mb-2">
               <label class="form-label">Provincia</label>
               <select class="form-select" id="IdProv" required>
                 <option selected disabled value="">Elija...</option>
@@ -154,7 +154,7 @@
                 <option>Tucuman</option>
               </select>
             </div>
-            <div class="mb-2 ">
+            <div class="mb-2">
               <label class="form-label">Codigo Postal</label>
               <input type="text" class="form-control" id="idpostal" required />
             </div>
@@ -168,22 +168,34 @@
                   required
                 />
                 <label class="form-check-label" for="AgreeCond">
-                  De acuerdo con los terminos y condiciones
+                  <p>
+                    <a
+                      href="../pages/error404.html"
+                      class="link-underline-light text-color"
+                      >De acuerdo con los terminos y condiciones</a
+                    >
+                  </p>
                 </label>
               </div>
             </div>
-            <div class="mb-2 mt-3 ">
-              <button class="btn btn-primary " type="submit">
+            <div class="mb-2 mt-3">
+              <button
+                class="btn btn-outline-secondary fs-5 text-center bg-principal"
+                type="submit"
+              >
                 Enviar Formulario
               </button>
             </div>
           </form>
-          
-          <div class="col-12 col-md-6 col-lg-6 mt-10">
-            <img src="../images/registro.png" class=" img-fluid w-100 " alt="imgRegistro">
+
+          <div class="col-12 col-md-6 col-lg-6 m-auto mt-4">
+            <img
+              src="../images/registro.png"
+              class="img-fluid w-100 rounded-5"
+              alt="imgRegistro"
+            />
           </div>
-                  </div>
-        
+        </div>
       </div>
     </main>
     <footer

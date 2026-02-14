@@ -6,14 +6,42 @@ background-color: black;
 .bg-footer{
 background-color: #021a26;
 }
-  
-.icono-hover:hover {
-  color: #0d6efd; /* Cambia al color deseado, ej. azul primary */
-  cursor: pointer;
+.titulo-contacto {
+  color: #038189;
 }
 
-.w-15 {
-  width: 15%;
+.formulario-contacto {
+    background-color: #038189;
+    padding: 25px;
+    border-radius: 12px;
+    color: white;
+  }
+
+  .formulario-contacto .form-control {
+    background-color: white;
+    color: black;
+  }
+
+.formulario-contacto .btn-primary {
+  border: 2px solid white;
+}
+.btn-enviar {
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+  transition:  500;
+}
+
+.btn-enviar:hover {
+  background-color: #89d5da;
+  color: white;
+}
+.btn-avant {
+  background-color: #468189;
+
+}
+.btn.avant:hover {
+background-color: #77ACA2;
 }
 .btn-finalizar {
     background-color: #468189;

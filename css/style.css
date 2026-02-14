@@ -14,6 +14,14 @@ background-color: #021a26;
   width: 15%;
 }
 
+.foto{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin: 10px 0px 10px 0px;
+
+}
+
 .formulario-contacto {
     background-color: #038189;
     padding: 25px;

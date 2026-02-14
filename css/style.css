@@ -10,6 +10,10 @@ background-color: #021a26;
   color: #038189;
 }
 
+.w-15 {
+  width: 15%;
+}
+
 .formulario-contacto {
     background-color: #038189;
     padding: 25px;

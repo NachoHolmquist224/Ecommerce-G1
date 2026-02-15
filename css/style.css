@@ -69,3 +69,23 @@ background-color:  #77aca2;
   width: 100%;
   height: auto;
 }
+
+.error-404 h1 {
+  font-size: 60px;
+}
+
+.error-404 h2 {
+  font-size: 40px;
+  color:  #1e626b
+}
+
+.btn-volver {
+  background-color: #038189;
+  color: white;
+  border: none;
+}
+
+.btn-volver:hover {
+  background-color: #7ea3a6;
+  color: white;
+}

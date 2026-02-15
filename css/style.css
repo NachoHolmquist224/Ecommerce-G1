@@ -52,6 +52,17 @@ width: 15% !important;
   background-color: #89d5da;
   color: white;
 }
+
+.contenedor-mapa {
+  
+  border-radius: 50px;
+  padding: 0px 0px 0px 10px;
+  display: flex;
+}
+
+.contenedor-mapa iframe {
+  flex: 1;
+}
 .btn-avant {
   background-color: #468189;
 

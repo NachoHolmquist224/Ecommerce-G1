@@ -63,3 +63,9 @@ background-color:  #77aca2;
 .text-color{
  color:  #468189;
 }
+
+.img-error-404{
+  max-width: 700px;   /* tamaño máximo */
+  width: 100%;
+  height: auto;
+}

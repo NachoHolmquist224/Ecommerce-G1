@@ -1,5 +1,4 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
-
 .bg-icono {
 color: rgb(54, 54, 54) !important;
 }
@@ -13,18 +12,6 @@ background-color: #021a26;
 width: 15% !important;
 }
 
-
-.w-15 {
-  width: 15%;
-}
-
-.foto{
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-  margin: 10px 0px 10px 0px;
-
-}
 
 .formulario-contacto {
     background-color: #038189;
@@ -75,4 +62,30 @@ background-color:  #77aca2;
 }
 .text-color{
  color:  #468189;
+}
+
+.img-error-404{
+  max-width: 700px;   /* tamaño máximo */
+  width: 100%;
+  height: auto;
+}
+
+.error-404 h1 {
+  font-size: 60px;
+}
+
+.error-404 h2 {
+  font-size: 40px;
+  color:  #1e626b
+}
+
+.btn-volver {
+  background-color: #038189;
+  color: white;
+  border: none;
+}
+
+.btn-volver:hover {
+  background-color: #7ea3a6;
+  color: white;
 }

@@ -1,7 +1,7 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
 
 .bg-icono {
-background-color: black;
+color: rgb(54, 54, 54) !important;
 }
 .bg-footer{
 background-color: #021a26;
@@ -9,6 +9,10 @@ background-color: #021a26;
 .titulo-contacto {
   color: #038189;
 }
+.w-icono-navbar{
+width: 15% !important;
+}
+
 
 .w-15 {
   width: 15%;
@@ -66,13 +70,9 @@ background-color: #021a26;
 .btn.avant:hover {
 background-color: #77ACA2;
 }
-.btn-finalizar {
-    background-color: #468189;
-    border-color: #468189;
+.bg-principal{
+background-color:  #77aca2;
 }
-
-.btn-finalizar:hover {
-    background-color: #356269; /* Un tono más oscuro para el efecto al pasar el mouse */
-    border-color: #356269;
-    color: white;
+.text-color{
+ color:  #468189;
 }

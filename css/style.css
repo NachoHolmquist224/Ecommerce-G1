@@ -1,24 +1,24 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
 .bg-icono {
-color: rgb(54, 54, 54) !important;
+  color: rgb(54, 54, 54) !important;
 }
-.bg-footer{
-background-color: #021a26;
+.bg-footer {
+  background-color: #021a26;
 }
 .titulo-contacto {
   color: #038189;
 }
-.w-icono-navbar{
-width: 15% !important;
+.w-icono-navbar {
+  width: 15% !important;
 }
 
-.w-15{
+.w-15 {
   width: 15%;
 }
 
-.foto{
-  height: 300px;
-  width: 300px;
+.foto {
+  height: 250px;
+  width: 250px;
   object-fit: cover;
 }
 
@@ -27,15 +27,15 @@ width: 15% !important;
 }
 
 .formulario-contacto {
-    background-color: #038189;
-    padding: 25px;
-    border-radius: 12px;
-    color: white;
+  background-color: #038189;
+  padding: 25px;
+  border-radius: 12px;
+  color: white;
 }
 
 .formulario-contacto .form-control {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
 
 .formulario-contacto .btn-primary {
@@ -45,7 +45,7 @@ width: 15% !important;
   background-color: white;
   color: black;
   border: 2px solid white;
-  transition:  500;
+  transition: 500;
 }
 
 .btn-enviar:hover {
@@ -54,7 +54,6 @@ width: 15% !important;
 }
 
 .contenedor-mapa {
-  
   border-radius: 50px;
   padding: 0px 0px 0px 10px;
   display: flex;
@@ -65,21 +64,20 @@ width: 15% !important;
 }
 .btn-avant {
   background-color: #468189;
-
 }
 .btn.avant:hover {
-background-color: #77ACA2;
+  background-color: #77aca2;
 }
-.bg-principal{
-background-color:  #77aca2;
+.bg-principal {
+  background-color: #77aca2;
 }
-.text-color{
- color:  #468189;
+.text-color {
+  color: #468189;
 }
 
-.img-error-404{
-  max-width: 700px;   /* tamaño máximo */
-  width: 100%;
+.img-error-404 {
+  max-width: 700px; /* tamaño máximo */
+  width: 40%;
   height: auto;
 }
 
@@ -89,7 +87,7 @@ background-color:  #77aca2;
 
 .error-404 h2 {
   font-size: 40px;
-  color:  #1e626b
+  color: #1e626b;
 }
 
 .btn-volver {
@@ -103,20 +101,45 @@ background-color:  #77aca2;
   color: white;
 }
 .bg-formRegistro {
-background-color: #9dbebb;
+  background-color: #9dbebb;
 }
 
 .navbar-toggler {
-    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x) !important;
-    font-size: var(--bs-navbar-toggler-font-size) !important;
-    line-height: 1 !important;
-    color: var(--bs-navbar-color) !important;
-    background-color: transparent !important;
-    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color) !important;
-    border-radius: var(--bs-navbar-toggler-border-radius) !important;
-    transition: var(--bs-navbar-toggler-transition) !important;
+  padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x) !important;
+  font-size: var(--bs-navbar-toggler-font-size) !important;
+  line-height: 1 !important;
+  color: var(--bs-navbar-color) !important;
+  background-color: transparent !important;
+  border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color) !important;
+  border-radius: var(--bs-navbar-toggler-border-radius) !important;
+  transition: var(--bs-navbar-toggler-transition) !important;
 }
 
 .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='grey' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='grey' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+.roundedimg {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.roundedform {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+@media (width < 1200px) {
+  .foto {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media (width < 768px) {
+  .roundedimg {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .roundedform {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
 }

@@ -1,9 +1,23 @@
-Detalle de carrito:
-En esta página mostrar una lista o tabla con una serie de
-productos seleccionados por un usuario (solo están maquetados) los botones para
-eliminar cada uno y el importe de cada producto detallado. Por otra parte mostrar
-el total a pagar, un botón para proceder con la compra el cual debe enviarnos a la
-página de error 404 y un botón para volver atrás y seguir comprando productos.
-REQUERIMIENTOS DEL LOGUIN:
+# 🚀 A un paso de main
 
-El navbar debe contener un botón de login, el cual me enviará a una página o ventana modal con un formulario para ingresar al perfil del usuario en el ecommerce (esa página no está desarrollada por lo que debería direccionarse al error 404). El diseño de login debe contener una imagen a la derecha o izquierda y el formulario de login al lado opuesto, entre las opciones del formulario también debe poder loguearse con una cuenta de google o de facebook, además incorporar un link para recuperar la contraseña en caso de no recordarla.
+¡Victoria! Hemos alcanzado un hito importante en el desarrollo. Todas las páginas y funcionalidades del sitio han sido integradas con éxito en la rama **`dev`**. 
+
+Actualmente, el proyecto se encuentra en la fase de **QA y Refinamiento Estético** antes del lanzamiento oficial.
+
+---
+
+### 📋 Estado del Proyecto
+* **Contenido:** 100% integrados en la rama de desarrollo.
+* **Estilos:** Ajustando detalles de responsive y pulido visual.
+* **Performance:** Optimizando carga de recursos y scripts.
+* **Meta Final:** Merge a `main` y deploy automático.
+
+### 🛠️ Flujo de Trabajo Actual
+1.  **Revisión Final:** Auditoría de enlaces, assets y formularios.
+2.  **Merge a Main:** Consolidación de la versión estable y producción.
+3.  **Deployment:** Lanzamiento oficial mediante **Netlify** 🚀.
+
+---
+<p align="center">
+  <b>Desarrollado con ❤️ por el Grupo1.</b>
+</p>

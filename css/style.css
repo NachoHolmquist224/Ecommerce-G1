@@ -12,18 +12,31 @@ background-color: #021a26;
 width: 15% !important;
 }
 
+.w-15{
+  width: 15%;
+}
+
+.foto{
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.img-cover {
+  object-fit: cover;
+}
 
 .formulario-contacto {
     background-color: #038189;
     padding: 25px;
     border-radius: 12px;
     color: white;
-  }
+}
 
-  .formulario-contacto .form-control {
+.formulario-contacto .form-control {
     background-color: white;
     color: black;
-  }
+}
 
 .formulario-contacto .btn-primary {
   border: 2px solid white;
@@ -88,4 +101,22 @@ background-color:  #77aca2;
 .btn-volver:hover {
   background-color: #7ea3a6;
   color: white;
+}
+.bg-formRegistro {
+background-color: #9dbebb;
+}
+
+.navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x) !important;
+    font-size: var(--bs-navbar-toggler-font-size) !important;
+    line-height: 1 !important;
+    color: var(--bs-navbar-color) !important;
+    background-color: transparent !important;
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color) !important;
+    border-radius: var(--bs-navbar-toggler-border-radius) !important;
+    transition: var(--bs-navbar-toggler-transition) !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='grey' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
 }

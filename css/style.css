@@ -190,3 +190,13 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
+/*usado*/
+.price-section {
+    margin-top: auto;      /* Empuja el bloque al fondo */
+    padding-top: 1rem;     /* Espacio con el texto de arriba */
+    display: flex;         /* Para alinear elementos internos */
+    flex-direction: column; /* Apilado vertical */
+    border-top: 1px solid #eee; /* Opcional: una línea sutil divisoria */
+}
+/*usado*/
+

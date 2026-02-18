@@ -143,3 +143,50 @@
     border-bottom-left-radius: 0px;
   }
 }
+/**********************************/
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+    background: #fff;
+    border-radius: 8px; /* redondeo de bordes de las cards*/
+    overflow: hidden;
+    
+}
+
+.img-wrapper {
+    height: 200px; /*altura fija*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: #fcfcfc;
+}
+
+.img-wrapper img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain; /* Fundamental: no deforma la prenda */
+}
+
+/* 3. El área de texto (30%): Espaciado consistente */
+.info-wrapper {
+    padding: 15px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* El precio siempre queda abajo alineado */
+    min-height: 120px; /* Asegura que el texto tenga su lugar reservado */
+}
+
+/* 4. El título: controlamos que no rompa la fila */
+.product-title {
+    font-size: 0.9rem;
+    color: #333;
+    margin-bottom: 8px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Corta el texto a 2 líneas con "..." */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

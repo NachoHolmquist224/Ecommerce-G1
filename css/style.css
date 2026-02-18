@@ -143,3 +143,17 @@
     border-bottom-left-radius: 0px;
   }
 }
+
+.carousel-item img {
+    height: 400px;         /* Ajusta este valor (400px o 500px) según qué tan pequeña la quieras */
+    object-fit: cover;   /* Muestra la foto entera sin cortarla */
+    background-color: #f8f9fa; /* Agrega un fondo gris suave por si la foto es angosta */
+}
+
+/* En celulares, podemos hacerla un poco más pequeña aún */
+@media (max-width <=768px) {
+    .carousel-item img {
+        height: 250px;
+        object-fit: cover;  
+    }
+}

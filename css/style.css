@@ -241,12 +241,12 @@ object-fit: cover;
 .img-producto {
   object-fit: cover; 
   
-  transition: transform 0.5s ease;
+  transition: transform 0.3s ease;
   min-height: 600px;
 }
 
 .img-productos:hover img {
-    transform: scale(1.1); /* Agranda la imagen suavemente */
+    transform: scale(1.05); /* Agranda la imagen suavemente */
 }
 
 /* Oscurecer un poco más al hacer hover para resaltar el texto */

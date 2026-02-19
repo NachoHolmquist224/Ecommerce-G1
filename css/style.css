@@ -144,10 +144,11 @@
   }
 }
 
+/* Ajuste para que la foto del carrusel se vea completa */
 .carousel-item img {
-    height: 400px;         /* Ajusta este valor (400px o 500px) según qué tan pequeña la quieras */
-    object-fit: cover;   /* Muestra la foto entera sin cortarla */
-    background-color: #f8f9fa; /* Agrega un fondo gris suave por si la foto es angosta */
+    height: 400px;         
+    object-fit: cover;   
+    background-color: #f8f9fa; 
 }
 
 /* En celulares, podemos hacerla un poco más pequeña aún */
@@ -157,66 +158,3 @@
         object-fit: cover;  
     }
 }
-
-* Ajuste para el contenedor del banner */
-.promo-banner {
-    min-height: 200px; /* Ajusta esta altura según prefieras */
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-
-}
-
-.img-promo{
-object-fit: cover;
- width: 100%;
- height: 200px;
-}
-
-/* Contenedor relativo para poder encimar el botón */
-.contenedor-img-promo {
-    position: relative;
-    display: inline-block;
-}
-
-/* Botón flotante */
-.btn-encima {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Lo centra perfectamente */
-    white-space: nowrap;
-}
-
-/*estilo productos*/
-
-.bg-light.rounded img {
-    height: 200px; /* Ajusta este alto según tu gusto */
-    object-fit: contain;/* Para que la foto se vea completa*/ 
-    width: 100%;
-}
-
-.img-producto-fija {
-    width: 100%;       /* Ocupa todo el ancho de la caja gris */
-    height: 200px;     /* ALTURA FIJA: cámbiala a 250px si las prefieres más altas */
-    object-fit: contain; /* Muestra el producto completo sin deformarlo */
-    background-color: #f8f9fa; /* Color de fondo por si la foto es más angosta */
-    padding: 10px;     /* Aire para que el producto no toque los bordes */
-}
-
-
-
-
-/* Estilo para los botones "ver" de la liquidación */
-.btn-outline-dark.rounded-pill {
-    transition: all 0.3s ease;
-    background-color: #3a9ea3;
-
-}
-
-.btn-outline-dark.rounded-pill:hover {
-    background-color: #2d6164;
-    color: #d4f4f6;
-    transform: scale(1.05);
-}
-

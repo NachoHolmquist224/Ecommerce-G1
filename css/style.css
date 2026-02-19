@@ -243,6 +243,9 @@ object-fit: cover;
   
   transition: transform 0.3s ease;
   min-height: 600px;
+
+  overflow: hidden;
+    display: block;
 }
 
 .img-productos:hover img {
@@ -270,6 +273,12 @@ object-fit: cover;
 /* Efecto opcional: que el círculo resalte más */
 .badge-descuento {
     border: 2px solid rgb(10, 10, 10);
+}
+
+ .img-productos:hover .badge {
+    background-color: #038188 !important; /* Cambia al turquesa que te gusta */
+    transform: scale(1.1); /* Se agranda un poquito */
+    transition: all 0.3s ease;
 }
 
 /* Efecto de zoom en la imagen: seccion */

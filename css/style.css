@@ -196,3 +196,33 @@ object-fit: cover;
     transform: translate(-50%, -50%); /* Lo centra perfectamente */
     white-space: nowrap;
 }
+
+.bg-light.rounded img {
+    height: 200px; /* Ajusta este alto según tu gusto */
+    object-fit: contain;/* Para que la foto se vea completa*/ 
+    width: 100%;
+}
+
+.img-producto-fija {
+    width: 100%;       /* Ocupa todo el ancho de la caja gris */
+    height: 200px;     /* ALTURA FIJA: cámbiala a 250px si las prefieres más altas */
+    object-fit: contain; /* Muestra el producto completo sin deformarlo */
+    background-color: #f8f9fa; /* Color de fondo por si la foto es más angosta */
+    padding: 10px;     /* Aire para que el producto no toque los bordes */
+}
+
+
+
+
+/* Estilo para los botones "ver" de la liquidación */
+.btn-outline-dark.rounded-pill {
+    transition: all 0.3s ease;
+    background-color: #3a9ea3;
+
+}
+
+.btn-outline-dark.rounded-pill:hover {
+    background-color: #2d6164;
+    color: #d4f4f6;
+    transform: scale(1.05);
+}

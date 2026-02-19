@@ -169,6 +169,29 @@
     }
 }
 
+
+/* Efecto de zoom en la imagen: seccion */
+.card img {
+  object-fit: cover; 
+  
+  transition: transform 0.5s ease;
+  min-height: 450px;
+}
+
+.card:hover img {
+    transform: scale(1.1); 
+}
+
+/* Oscurecer un poco más al hacer hover para resaltar el texto */
+.card:hover {
+    cursor: pointer;
+}
+
+.card:hover .opacity-75 {
+    opacity: 1 !important; /* O puedes bajarla a 0.5 según tu gusto */
+}
+
+
 /* Ajuste para el contenedor del banner */
 .promo-banner {
     min-height: 200px; /* Ajusta esta altura según prefieras */
@@ -258,16 +281,16 @@ object-fit: cover;
 }
 
 .img-producto:hover .opacity-75 {
-    opacity: 1 !important; /* O puedes bajarla a 0.5 según tu gusto */
+    opacity: 1 !important; 
 }
 
 .badge-descuento {
-    width: 60px;       /* Ajusta el tamaño aquí */
+    width: 60px;       
     height: 60px;
-    font-size: 0.75rem; /* Tamaño de la letra */
-    line-height: 1;    /* Para que el 30% y el OFF queden pegaditos */
+    font-size: 0.75rem; 
+    line-height: 1;    
     text-align: center;
-    z-index: 10;       /* Asegura que esté por encima de la foto */
+    z-index: 10;       
 }
 
 /* Efecto opcional: que el círculo resalte más */
@@ -276,28 +299,8 @@ object-fit: cover;
 }
 
  .img-productos:hover .badge {
-    background-color: #038188 !important; /* Cambia al turquesa que te gusta */
-    transform: scale(1.1); /* Se agranda un poquito */
+    background-color: #038188 !important; 
+    transform: scale(1.1); 
     transition: all 0.3s ease;
 }
 
-/* Efecto de zoom en la imagen: seccion */
-.card img {
-  object-fit: cover; 
-  
-  transition: transform 0.5s ease;
-  min-height: 450px;
-}
-
-.card:hover img {
-    transform: scale(1.1); /* Agranda la imagen suavemente */
-}
-
-/* Oscurecer un poco más al hacer hover para resaltar el texto */
-.card:hover {
-    cursor: pointer;
-}
-
-.card:hover .opacity-75 {
-    opacity: 1 !important; /* O puedes bajarla a 0.5 según tu gusto */
-}

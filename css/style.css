@@ -216,7 +216,8 @@ object-fit: cover;
     height: 200px;     
     object-fit: cover; 
     background-color: #f8f9fa;
-    padding: 10px;     
+    padding: px; 
+    border-radius: 20px;    
 }
 
 
@@ -225,7 +226,7 @@ object-fit: cover;
 /* Estilo para los botones "ver" de la liquidación */
 .btn-outline-dark.rounded-pill {
     transition: all 0.3s ease;
-    background-color: #3a9ea3;
+    background-color: #9dd6d8;
 
 }
 
@@ -241,7 +242,7 @@ object-fit: cover;
   object-fit: cover; 
   
   transition: transform 0.5s ease;
-  min-height: 450px;
+  min-height: 600px;
 }
 
 .img-productos:hover img {

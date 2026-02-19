@@ -258,7 +258,19 @@ object-fit: cover;
     opacity: 1 !important; /* O puedes bajarla a 0.5 según tu gusto */
 }
 
+.badge-descuento {
+    width: 60px;       /* Ajusta el tamaño aquí */
+    height: 60px;
+    font-size: 0.75rem; /* Tamaño de la letra */
+    line-height: 1;    /* Para que el 30% y el OFF queden pegaditos */
+    text-align: center;
+    z-index: 10;       /* Asegura que esté por encima de la foto */
+}
 
+/* Efecto opcional: que el círculo resalte más */
+.badge-descuento {
+    border: 2px solid rgb(10, 10, 10);
+}
 
 /* Efecto de zoom en la imagen: seccion */
 .card img {

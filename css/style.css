@@ -209,10 +209,12 @@ object-fit: cover;
     width: 100%;
 }
 
+
+/*productos*/
 .img-producto-fija {
     width: 100%;       
     height: 200px;     
-    object-fit: contain; 
+    object-fit: cover; 
     background-color: #f8f9fa;
     padding: 10px;     
 }
@@ -233,9 +235,31 @@ object-fit: cover;
     transform: scale(1.05);
 }
 
+/*efectos botones productos*/
+
+.img-producto {
+  object-fit: cover; 
+  
+  transition: transform 0.5s ease;
+  min-height: 450px;
+}
+
+.img-productos:hover img {
+    transform: scale(1.1); /* Agranda la imagen suavemente */
+}
+
+/* Oscurecer un poco más al hacer hover para resaltar el texto */
+.img-producto:hover {
+    cursor: pointer;
+}
+
+.img-producto:hover .opacity-75 {
+    opacity: 1 !important; /* O puedes bajarla a 0.5 según tu gusto */
+}
 
 
-/* Efecto de zoom en la imagen */
+
+/* Efecto de zoom en la imagen: seccion */
 .card img {
   object-fit: cover; 
   

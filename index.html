@@ -100,7 +100,7 @@
     <main class="flex-grow-1">
       
      <!--carrousel-->
-     <section class="container-fluit my-4">
+     <section class="container-fluid my-4">
         <div
           id="carouselEcommerse"
           class="carousel carousel-light slide shadow-sm rounded overflow-hidden"
@@ -133,8 +133,8 @@
               <div class="position-relative">
                 <img
                   src="./images/hombre-mujeres-carrousel.png"
-                  class="d-block w-100 imag-carrousel"
-                  style="height: 400px"
+                  class="d-block w-100 img-carrousel"
+                 style="object-position: top;"
                   alt="Nuevas Marcas"
                 />
                 <div
@@ -151,9 +151,10 @@
             </div>
             <div class="carousel-item" data-bs-interval="2000">
               <img
-                src="./images/runner.jpg"
-                class="d-block w-100 imag-carrousel"
-                style="height: 400px"
+                src="./images/grupo-runner.jpg"
+                class="d-block w-100 img-carrousel"
+                
+              
                 alt="Ofertas"
               />
               <div
@@ -167,9 +168,9 @@
 
             <div class="carousel-item" data-bs-interval="5000">
               <img
-                src="./image/mundial.jpg"
-                class="d-block w-100 imag-carrousel"
-                style="height: 400px"
+                src="./images/hinchadabanner.jpg"
+                class="d-block w-100 img-carrousel"
+              
                 alt="Nueva Colección"
               />
               <div
@@ -204,59 +205,42 @@
         <!--secciones-->
 
          <section class="container my-5">
-        <div class="row g-3">
-          <div class="col-md-4">
-            <div
-              class="card bg-dark text-white border-0 overflow-hidden position-relative"
-              style="height: 200px"
-            >
-              <img
-                src="./images/seccion-mujer.jpg"
-                class="card-img w-100 h-100 object-fit-cover opacity-75"
-                alt="Mujer"
-              />
-              <div
-                class="card-img-overlay d-flex align-items-center justify-content-center"
-              >
-                <h3 class="card-title fw-bold text-uppercase">Mujer</h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div
-              class="card bg-dark text-white border-0 overflow-hidden position-relative"
-              style="height: 200px"
-            >
-              <img
-                src="./images/seccion-hombres.jpg"
-                class="card-img w-100 h-100 object-fit-cover opacity-75"
-                alt="Hombre"
-              />
-              <div
-                class="card-img-overlay d-flex align-items-center justify-content-center"
-              >
-                <h3 class="card-title fw-bold text-uppercase">Hombre</h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div
-              class="card bg-dark text-white border-0 overflow-hidden position-relative"
-              style="height: 200px"
-            >
-              <img
-                src="./images/accesorios.jpg"
-                class="card-img w-100 h-100 object-fit-cover opacity-75"
-                alt="Accesorios"
-              />
-              <div
-                class="card-img-overlay d-flex align-items-center justify-content-center"
-              >
-                <h3 class="card-title fw-bold text-uppercase">Accesorios</h3>
-              </div>
-            </div>
+          <div class="row g-3">
+         <div class="col-md-4">
+      <a href="/mujer" class="text-decoration-none"> <div class="card bg-dark text-white border-0 overflow-hidden position-absoluta shadow-sm" style="height: 200px">
+          <img src="./images/seccion-mujer.jpg" class="card-img w-100 h-100 object-fit-cover opacity-75" alt="Moda Mujer" />
+          <div class="card-img-overlay d-flex align-items-center justify-content-center bg-black bg-opacity-25">
+            <h3 class="card-title fw-bold text-uppercase m-0">Mujer</h3>
           </div>
         </div>
+      </a>
+    </div>
+    
+
+    
+    <div class="col-md-4">
+      <a href="/mujer" class="text-decoration-none"> <div class="card bg-dark text-white border-0 overflow-hidden position-absoluta shadow-sm" style="height: 200px">
+          <img src="./images/seccion-hombre2.jpg" class="card-img w-100 h-100 object-fit-cover opacity-75" alt="Moda Mujer" />
+          <div class="card-img-overlay d-flex align-items-center justify-content-center bg-black bg-opacity-25">
+            <h3 class="card-title fw-bold text-uppercase m-0">Hombre</h3>
+          </div>
+        </div>
+      </a>
+    </div>
+         
+   
+    <div class="col-md-4">
+      <a href="/mujer" class="text-decoration-none"> <div class="card bg-dark text-white border-0 overflow-hidden position-absoluta shadow-sm" style="height: 200px">
+          <img src="./images/accesorios.jpg" class="card-img w-100 h-100 object-fit-cover opacity-75" alt="Moda Mujer" />
+          <div class="card-img-overlay d-flex align-items-center justify-content-center bg-black bg-opacity-25">
+            <h3 class="card-title fw-bold text-uppercase m-0">Accesorios</h3>
+          </div>
+        </div>
+      </a>
+    </div>
+         
+         
+    
       </section>
 
        <!--publicidad2-->
@@ -264,19 +248,21 @@
       <section class="container my-5 d-none d-md-block">
         <div
           class="rounded-3 shadow-sm promo-banner"
-          style="background: linear-gradient(90deg, rgb(102, 180, 229) (46, 46, 109) 40%, #f1f1f1 60%)"
+         
+          style="background: linear-gradient(90deg, rgb(3, 20, 31) 0%, rgb(46, 46, 109) 40%, #f1f1f1 60%)"
          >
           <div class="row w-100 align-items-center g-0">
             <div class="col-md-4 text-white text-center">
-              <p class="mb-0 text-uppercase">Especial San Valentín</p>
+              <p class="mb-0 text-uppercase">Cyber Mundial</p>
               <h2 class="fw-bold display-6">HASTA 30% OFF</h2>
             </div>
 
             <div class="col-md-8 text-center position-relative">
               <div class="contenedor-img-promo w-100 ">
                 <img
-                  src="./images/hinchada argentna.jpg"
+                  src="./images/mundial.jpg"
                   alt="Promoción"
+                  
                   class="img-promo shadow"
                 />
 

@@ -97,7 +97,366 @@
         </div>
       </nav>
     </header>
-    <main class="flex-grow-1"></main>
+    <main class="flex-grow-2">
+      
+     <!--carrousel-->
+
+     <section class="container-fluid my-4">
+        <div
+          id="carouselEcommerse"
+          class="carousel carousel-light slide shadow-sm rounded overflow-hidden"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselEcommerse"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselEcommerse"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            
+            <button
+              type="button"
+              data-bs-target="#carouselEcommerse"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+              <div class="position-relative">
+                <img
+                  src="./images/hombre-mujeres-carrousel.png"
+                  class="d-block w-100 img-carrousel"
+                 style="object-position: top;"
+                  alt="Nuevas Marcas"
+                />
+                <div
+                  class="carousel-caption d-none d-md-block text-center start-50 translate-middle-x top-0 mt-4 bg-white bg-opacity-75 p-4 rounded shadow" style="max-width: 350px; height: fit-content;"
+                >     
+                  <p class="text-uppercase mb-0 small">Descubrí</p>
+                  <h2 class="fw-bold">Nuevas Marcas</h2>
+                  <div class="d-flex gap-2 mt-2 justify-content-center">
+                    <span class="badge bg-dark ">6 CUOTAS SIN INTERÉS</span>
+                    <span class="badge bg-dark">ENVÍOS RÁPIDOS</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img
+                src="./images/grupo-runner.jpg"
+                class="d-block w-100 img-carrousel"
+                
+              
+                alt="Ofertas"
+              />
+              <div
+                class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 text-white rounded"
+              >
+                <h5>Enfocate en la meta</h5>
+                <p>Nosotros nos encargamos de lo demas</p>
+                <p>Descuentos exclusivos</p>
+                <span class="badge bg-info text-dark rounded-pill px-2 py-1 fw-bold shadow-sm" style="font-size: 0.6rem;">
+                  30% OFF
+                </span>
+                <span class="badge bg-danger rounded-pill px-3 py-2 fw-bold shadow badge-descuento">
+                50% OFF
+                 </span>
+              </div>
+            </div>
+
+            <!--3-->
+            <div class="carousel-item" data-bs-interval="6000">
+              <img
+                src="./images/hinchadabanner.jpg"
+                class="d-block w-100 img-carrousel"
+              
+                alt="Nueva Colección"
+              />
+              <div
+                class="carousel-caption titulo-oscuro d-none d-md-block bg-dark bg-opacity-50 text-white rounded"
+              >
+                <h2>Adelantate al Mundial</h2>
+                <p>Conocé lo último que llegó a nuestra tienda.</p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselEcommerse"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselEcommerse"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+      </section>
+
+        <!--secciones-->
+
+         <section class="container my-5">
+          <div class="row g-3">
+         <div class="col-md-4">
+      <a href="./pages/seccionMujer.html" class="text-decoration-none"> <div class="card bg-dark text-white border-0 overflow-hidden position-absoluta shadow-sm" style="height: 200px">
+          <img src="./images/seccion-mujer.jpg" class="card-img w-100 h-100 object-fit-cover opacity-75" alt="Moda Mujer" />
+          <div class="card-img-overlay d-flex align-items-center justify-content-center bg-black bg-opacity-25">
+            <h3 class="card-title fw-bold text-uppercase m-0">Mujer</h3>
+          </div>
+        </div>
+      </a>
+    </div>
+    
+
+    
+    <div class="col-md-4">
+      <a href="./pages/seccionhombre.html" class="text-decoration-none"> <div class="card bg-dark text-white border-0 overflow-hidden position-absoluta shadow-sm" style="height: 200px">
+          <img src="./images/seccion-hombre2.jpg" class="card-img w-100 h-100 object-fit-cover opacity-75" alt="Moda Mujer" />
+          <div class="card-img-overlay d-flex align-items-center justify-content-center bg-black bg-opacity-25">
+            <h3 class="card-title fw-bold text-uppercase m-0">Hombre</h3>
+          </div>
+        </div>
+      </a>
+    </div>
+         
+   
+    <div class="col-md-4">
+      <a href="./pages/seccionAccessorios.html" class="text-decoration-none"> <div class="card bg-dark text-white border-0 overflow-hidden position-absoluta shadow-sm" style="height: 200px">
+          <img src="./images/accesorios.jpg" class="card-img w-100 h-100 object-fit-cover opacity-75" alt="Moda Mujer" />
+          <div class="card-img-overlay d-flex align-items-center justify-content-center bg-black bg-opacity-25">
+            <h3 class="card-title fw-bold text-uppercase m-0">Accesorios</h3>
+          </div>
+        </div>
+      </a>
+    </div>
+         
+         
+    
+      </section>
+
+       <!--publicidad-->
+
+      <section class="container my-5 d-none d-md-block">
+        <div
+          class="rounded-3 shadow-sm promo-banner"
+         
+          style="background: linear-gradient(90deg, rgb(93, 179, 237) 0%, rgb(238, 238, 241) 40%, #f1f1f1 60%)"
+         >
+          <div class="row w-100 align-items-center g-0">
+            <div class="col-md-4 text-white text-center">
+              <p class="mb-0 text-uppercase">Cyber Mundial</p>
+              <h2 class="fw-bold display-6">HASTA 30% OFF</h2>
+            </div>
+
+            <div class="col-md-8 text-center position-relative">
+              <div class="contenedor-img-promo w-100 ">
+                <img
+                  src="./images/banner-3.png"
+                  alt="Promoción"
+                  
+                  class="img-promo shadow"
+                />
+
+                <!--<button
+                  class="btn btn-light fw-bold px-4 py-2 btn-encima shadow"
+                >
+                  Descubrí
+                </button>-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--productos-->
+
+      <section class="container my-5">
+        <div class="text-center mb-5 p-4 bg-white border-danger border-1 rounded-bottom shadow-sm "  >
+          <p class="text-uppercase mb-1 small fw-bold text-danger" style="background-color: #bbd7d8;" >
+            <i class="bi bi-fire"></i>Rebajas Imperdibles
+          </p>
+          <h2 class="fw-extrabold text-uppercase display-6 ">
+            Liquidación en
+            <span class="text-danger ">Accesorios
+          
+            </span>
+          </h2>
+        </div>
+
+        <div class="row g-4 text-center">
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class=" rounded position-relative mb-3 img-productos">
+              <img
+                src="./images/gorra.jpg"
+                class="img-fluid rounded img-producto-fija"
+                alt="Zapato"
+              />
+              <span class="position-absolute bottom-0 end-0 m-2 badge bg-danger rounded-pill px-3 py-2 fw-bold shadow badge-descuento">
+                 30% OFF
+              </span>
+            </div>
+            <button
+              class="btn btn-outline-dark rounded-pill px-5 fw-bold border-2"
+            >
+              ver
+            </button>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class=" rounded position-relative mb-3 img-productos border-2  ">
+              <img
+                src="./images/Malla Dkr Natacion Surf Deportes Acuaticos . Alta Proteccion-1.webp"
+                class="img-fluid rounded img-producto-fija"
+                alt="Mochila"
+              />
+              <span class="position-absolute bottom-0 end-0 m-2 badge bg-danger rounded-pill px-3 py-2 fw-bold shadow badge-descuento">
+               30% OFF
+              </span>
+  
+            </div>
+            <button
+              class="btn btn-outline-dark rounded-pill px-5 fw-bold border-2"
+            >
+              ver
+            </button>
+          </div>
+
+          <!--3-->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class=" rounded position-relative mb-3 img-productos">
+              <img
+                src="./images/palo de hockey.png"
+                class="img-fluid rounded img-producto-fija"
+                alt="Mochila"
+              />
+               <span class="position-absolute bottom-0 end-0 m-2 badge bg-danger rounded-pill px-3 py-2 fw-bold shadow badge-descuento">
+                 30% OFF
+                 </span>
+            </div>
+            <button
+              class="btn btn-outline-dark rounded-pill px-5 fw-bold border-2"
+            >
+              ver
+            </button>
+          </div>
+          <!--4-->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class=" rounded position-relative mb-3 img-productos">
+              <img
+                src="./images/pelota de pilates.png"
+                class="img-fluid rounded img-producto-fija"
+                alt="Mochila"
+              />
+               <span class="position-absolute bottom-0 end-0 m-2 badge bg-danger rounded-pill px-3 py-2 fw-bold shadow badge-descuento">
+               30% OFF
+               </span>
+            </div>
+            <button
+              class="btn btn-outline-dark rounded-pill px-5 fw-bold border-2"
+            >
+              ver
+            </button>
+          </div>
+
+          <!--5-->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="  rounded position-relative mb-3 img-productos">
+              <img
+                src="./images/Vincha Deportiva Para Entrenar-1.webp"
+                class="img-fluid rounded img-producto-fija"
+                alt="Mochila"
+              />
+               <span class="position-absolute bottom-0 end-0 m-2 badge bg-danger rounded-pill px-3 py-2 fw-bold shadow badge-descuento">
+                60% OFF
+               </span>
+            </div>
+            <button
+              class="btn btn-outline-dark rounded-pill px-5 fw-bold border-2"
+            >
+              ver
+            </button>
+          </div>
+
+          <!--6-->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class=" rounded position-relative mb-3 img-productos">
+              <img
+                src="./images/lentes-sol.jpg"
+                class="img-fluid rounded img-producto-fija"
+                alt="Mochila"
+              />
+               <span class="position-absolute bottom-0 end-0 m-2 badge bg-danger rounded-pill px-3 py-2 fw-bold shadow badge-descuento">
+                 70% OFF
+                 </span>
+            </div>
+            <button
+              class="btn btn-outline-dark rounded-pill px-5 fw-bold border-2"
+            >
+              ver
+            </button>
+          </div>
+
+          <!--7-->
+
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="rounded position-relative mb-3 img-productos">
+              <img
+                src="./images/pelotafifa.png"
+                class="img-fluid rounded img-producto-fija"
+                alt="pelota"
+              />
+              <span class="position-absolute bottom-0 end-0 m-2 badge bg-danger rounded-pill px-3 py-2 fw-bold shadow badge-descuento">
+                10% OFF
+               </span>
+            </div>
+            <button
+              class="btn btn-outline-dark rounded-pill px-5 fw-bold border-2"
+            >
+              ver
+            </button>
+          </div>
+
+          <!--8-->
+
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="rounded position-relative mb-3 img-productos">
+              <img
+                src="./images/bolso deportivo mujer.png"
+                class="img-fluid rounded img-producto-fija"
+                alt="perfume"
+              />
+               <span class="position-absolute bottom-0 end-0 m-2 badge bg-danger rounded-pill px-3 py-2 fw-bold shadow badge-descuento">
+                15% OFF
+                </span>
+            </div>
+            <button
+              class="btn btn-outline-dark rounded-pill px-5 fw-bold border-2"
+            >
+              ver
+            </button>
+          </div>
+
+          
+
+
+    </main>
     <footer
       class="bg-footer text-white d-flex flex-column align-items-center justify-content-center p-3"
     >

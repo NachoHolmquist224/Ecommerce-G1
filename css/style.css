@@ -254,6 +254,8 @@ body {
   background-color: #f8f9fa;
   padding: px;
   border-radius: 20px;
+  border: 3px solid #038188; 
+  transition: transform 0.3s ease, border-color 0.3s ease;
 }
 
 /* Estilo para los botones "ver" de la liquidación */
@@ -272,12 +274,11 @@ body {
 
 .img-producto {
   object-fit: cover;
-
-  transition: transform 0.3s ease;
+ transition: transform 0.3s ease;
   min-height: 600px;
-
   overflow: hidden;
   display: block;
+ 
 }
 
 .img-productos:hover img {
@@ -287,6 +288,7 @@ body {
 /* Oscurecer un poco más al hacer hover para resaltar el texto */
 .img-producto:hover {
   cursor: pointer;
+  
 }
 
 .img-producto:hover .opacity-75 {

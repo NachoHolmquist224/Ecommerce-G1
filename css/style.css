@@ -143,3 +143,59 @@
     border-bottom-left-radius: 0px;
   }
 }
+#addToCard {
+    text-align: center;
+    border-radius: 1.5rem;
+    border: none;
+    border-width: 0.5rem;
+    background-color: #468189;
+    box-shadow: 1px 3px #ccc;
+}
+button.carousel-control-prev,
+button.carousel-control-next {
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+    margin-top: 14rem;
+       
+
+}
+main{
+flex: 1;
+}
+.card {
+    background: white;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    border: 0;
+    border-radius: 1rem;
+ }
+ .card-img,
+.card-img-top {
+    border-top-left-radius: calc(1rem - 1px);
+    border-top-right-radius: calc(1rem - 1px);
+}
+.card h5 {
+    overflow: hidden;
+    height: 55px;
+    font-weight: 300;
+    font-size: 1rem;
+}
+.card h5 a {
+  color: #b01a45;
+  text-decoration: none;
+} 
+.card-img-top {
+    width: 100%;
+    min-height: 250px;
+    max-height: 200px;
+    object-fit: contain;
+    padding: 25px;
+ 
+}
+.card h2 {
+    font-size: 1rem;
+}
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}

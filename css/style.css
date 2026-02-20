@@ -2,6 +2,10 @@
 .bg-icono {
   color: rgb(54, 54, 54) !important;
 }
+body {
+    background-color: #abd4e0; 
+}
+
 .bg-footer {
   background-color: #021a26;
 }

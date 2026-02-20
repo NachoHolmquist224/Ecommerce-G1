@@ -145,179 +145,164 @@
 }
 
 /* Ajuste para que la foto del carrusel se vea completa */
-.img-carrousel{
-    height: 400px; 
-          
-    object-fit: cover;   
-    background-color: #f8f9fa; 
-    
+.img-carrousel {
+  height: 400px;
+
+  object-fit: cover;
+  background-color: #f8f9fa;
 }
 
 /* En celulares, podemos hacerla un poco más pequeña aún */
 @media (max-width <=768px) {
-    .carousel-item img {
-        height: 250px;
-        object-fit: cover;  
-    }
+  .carousel-item img {
+    height: 250px;
+    object-fit: cover;
+  }
 }
 
 .carousel-caption h2,
-.carousel-caption h5{
-    font-weight: 800;
-    text-transform: uppercase; 
-    letter-spacing: 1px; 
-    margin-bottom: 0.5rem;
+.carousel-caption h5 {
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
 }
 
-.carousel-item.active .carousel-caption h2{
-    color: black;
+.carousel-item.active .carousel-caption h2 {
+  color: black;
 }
 
 .carousel-item:not(.active) .carousel-caption h5 {
-    color: #ffffff;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Sombra para que resalte */
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para que resalte */
 }
 
 .carousel-caption p.text-uppercase {
-    color: #d62828; /* Tu rojo de marca */
-    font-weight: 700;
+  color: #d62828; /* Tu rojo de marca */
+  font-weight: 700;
 }
 
 .carousel-item .carousel-caption.titulo-oscuro h2 {
-     color: white;
+  color: white;
 }
 
 /* Efecto de zoom en la imagen: seccion */
 .card img {
-  object-fit: cover; 
-  
+  object-fit: cover;
+
   transition: transform 0.5s ease;
   min-height: 450px;
 }
 
 .card:hover img {
-    transform: scale(1.1); 
+  transform: scale(1.1);
 }
 
 /* Oscurecer un poco más al hacer hover para resaltar el texto */
 .card:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .card:hover .opacity-75 {
-    opacity: 1 !important; 
+  opacity: 1 !important;
 }
-
 
 /* Ajuste para el contenedor del banner */
 .promo-banner {
-    min-height: 200px;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
 }
 
-.img-promo{
-object-fit: cover;
- width: 100%;
- height: 200px;
- 
- 
- 
+.img-promo {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
 }
 
 /* Contenedor relativo para poder encimar el botón */
 .contenedor-img-promo {
-    position: relative;
-    display: inline-block;
-    
-} 
+  position: relative;
+  display: inline-block;
+}
 
 /* Botón flotante */
 .btn-encima {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
-    white-space: nowrap;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
 }
 
 .bg-light.rounded img {
-    height: 200px; 
-    object-fit: contain;
-    width: 100%;
+  height: 200px;
+  object-fit: contain;
+  width: 100%;
 }
-
 
 /*productos*/
 .img-producto-fija {
-    width: 100%;       
-    height: 200px;     
-    object-fit: cover; 
-    background-color: #f8f9fa;
-    padding: px; 
-    border-radius: 20px;    
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  background-color: #f8f9fa;
+  padding: px;
+  border-radius: 20px;
 }
-
-
-
 
 /* Estilo para los botones "ver" de la liquidación */
 .btn-outline-dark.rounded-pill {
-    transition: all 0.3s ease;
-    background-color: #9dd6d8;
-
+  transition: all 0.3s ease;
+  background-color: #9dd6d8;
 }
 
 .btn-outline-dark.rounded-pill:hover {
-    background-color: #2d6164;
-    color: #d4f4f6;
-    transform: scale(1.05);
+  background-color: #2d6164;
+  color: #d4f4f6;
+  transform: scale(1.05);
 }
 
 /*efectos botones productos*/
 
 .img-producto {
-  object-fit: cover; 
-  
+  object-fit: cover;
+
   transition: transform 0.3s ease;
   min-height: 600px;
 
   overflow: hidden;
-    display: block;
+  display: block;
 }
 
 .img-productos:hover img {
-    transform: scale(1.05); 
+  transform: scale(1.05);
 }
 
 /* Oscurecer un poco más al hacer hover para resaltar el texto */
 .img-producto:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .img-producto:hover .opacity-75 {
-    opacity: 1 !important; 
+  opacity: 1 !important;
 }
 
 .badge-descuento {
-           
-  
-    font-size: 0.75rem; 
-    line-height: 1;    
-    text-align: center;
-    z-index: 10;       
+  font-size: 0.75rem;
+  line-height: 1;
+  text-align: center;
+  z-index: 10;
 }
 
 /* Efecto opcional: que el círculo resalte más */
 .badge-descuento {
-    border: 2px solid rgb(10, 10, 10);
+  border: 2px solid rgb(10, 10, 10);
 }
 
- .img-productos:hover .badge-descuento {
-    background-color: #038188 !important; 
-    transform: scale(1.1); 
-    transition: all 0.3s ease;
+.img-productos:hover .badge-descuento {
+  background-color: #038188 !important;
+  transform: scale(1.1);
+  transition: all 0.3s ease;
 }
-

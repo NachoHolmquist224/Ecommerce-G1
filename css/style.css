@@ -3,6 +3,10 @@
   color: rgb(54, 54, 54) !important;
 }
 
+.nav{
+  background-color: #77aca2;
+}
+
 .bg-dropdown{
   background-color: #89d5da;
 }
@@ -70,9 +74,7 @@
 .btn.avant:hover {
   background-color: #77aca2;
 }
-.bg-principal {
-  background-color: #77aca2;
-}
+
 .text-color {
   color: #468189;
 }

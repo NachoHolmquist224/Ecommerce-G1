@@ -312,3 +312,30 @@
   transition: all 0.3s ease;
 }
 
+.whatsapp {
+  background-color: #25d366;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 52px;
+  color: var(--blanco);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: #11111155 0px 4px 8px;
+  cursor: pointer;
+  padding-bottom: 1px;
+}
+
+.whatsapph:hover {
+  background-color:#1cbe58;
+  transition: 400ms;
+}
+
+.whatsapp i {
+  color: var(--color-negro);
+}
+

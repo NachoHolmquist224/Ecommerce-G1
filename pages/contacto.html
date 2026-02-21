@@ -33,10 +33,23 @@
                   >Inicio</a
                 >
               </li>
-              <li class="nav-item">
-                <a class="nav-link fs-5" aria-current="page" href="./error404.html"
-                  >Secciones</a
+              <li class="nav-item dropdown fs-5">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
                 >
+                  Secciones
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item px-auto py-0" href="./seccionMujer.html">Mujeres</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item px-auto py-0" href="./seccionHombre.html">Hombres</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item px-auto py-0" href="./seccionAccessorios.html">Accesorios</a></li>
+                </ul>
               </li>
               <li class="nav-item fs-5">
                 <a class="nav-link" href="#">Contacto</a>
@@ -93,10 +106,9 @@
        <section class="titulo-contacto py-4">
         <h1 class="titulo text-center">Contacto</h1>
        </section>
-        <section class="container my-4 ">
-       <div class= "row row-gap-3 align-items-stretch">
-          <div class="col-12 col-md-6 formulario-contacto" >
-
+        <section class="container">
+       <div class="row">
+          <div class="col-12 col-md-6 formulario-contacto roundedform" >
            <form autocomplete="off">
               <div class="mb-3">
                 <label for="nombre" class="form-label"
@@ -147,21 +159,16 @@
                 <p class="fs-6">Los campos con (*) son obligatorios</p>
               </div>
               <button class="btn btn-enviar" type="submit">Enviar</button>
-            </form>
-            </div>
-           
-           <div class="col-12 col-md-6 contenedor-mapa">
+           </form>
+          </div>
+           <div class="col-12 col-md-6 d-flex pmapa">
              <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.1059174722664!2d-65.20974192456302!3d-26.83658327669258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses!2sar!4v1770867834962!5m2!1ses!2sar"
-              width="600"
-               class="border-0 w-100 rounded-3"
-              
-            ></iframe>
+              class="w-100 roundedimg"
+             ></iframe>
            </div>
-          
           </div>
         </section>
-
      </main>
      <footer
       class="bg-footer text-white d-flex flex-column align-items-center justify-content-center p-3 mt-5"

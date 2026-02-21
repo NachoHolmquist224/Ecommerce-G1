@@ -1,0 +1,207 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+.bg-icono {
+  color: rgb(54, 54, 54) !important;
+}
+body {
+    background-color: #abd4e0; 
+}
+
+.bg-footer {
+  background-color: #021a26;
+}
+.titulo-contacto {
+  color: #038189;
+}
+.w-icono-navbar {
+  width: 15% !important;
+}
+
+.w-15 {
+  width: 15%;
+}
+
+.foto {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+}
+
+.img-cover {
+  object-fit: cover;
+}
+
+.formulario-contacto {
+  background-color: #038189;
+  padding: 25px;
+  border-radius: 12px;
+  color: white;
+}
+
+.formulario-contacto .form-control {
+  background-color: white;
+  color: black;
+}
+
+.formulario-contacto .btn-primary {
+  border: 2px solid white;
+}
+.btn-enviar {
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+  transition: 500;
+}
+
+.btn-enviar:hover {
+  background-color: #89d5da;
+  color: white;
+}
+
+.contenedor-mapa {
+  border-radius: 50px;
+  padding: 0px 0px 0px 10px;
+  display: flex;
+}
+
+.contenedor-mapa iframe {
+  flex: 1;
+}
+.btn-avant {
+  background-color: #468189;
+}
+.btn.avant:hover {
+  background-color: #77aca2;
+}
+.bg-principal {
+  background-color: #77aca2;
+}
+.text-color {
+  color: #468189;
+}
+
+.img-error-404 {
+  max-width: 700px; /* tamaño máximo */
+  width: 40%;
+  height: auto;
+}
+
+.error-404 h1 {
+  font-size: 60px;
+}
+
+.error-404 h2 {
+  font-size: 40px;
+  color: #1e626b;
+}
+
+.btn-volver {
+  background-color: #038189;
+  color: white;
+  border: none;
+}
+
+.btn-volver:hover {
+  background-color: #7ea3a6;
+  color: white;
+}
+.bg-formRegistro {
+  background-color: #9dbebb;
+}
+
+.navbar-toggler {
+  padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x) !important;
+  font-size: var(--bs-navbar-toggler-font-size) !important;
+  line-height: 1 !important;
+  color: var(--bs-navbar-color) !important;
+  background-color: transparent !important;
+  border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color) !important;
+  border-radius: var(--bs-navbar-toggler-border-radius) !important;
+  transition: var(--bs-navbar-toggler-transition) !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='grey' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+.roundedimg {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.roundedform {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+@media (width < 1200px) {
+  .foto {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media (width < 768px) {
+  .roundedimg {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .roundedform {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+}
+
+/***************Secciones*******************/
+
+#addToCard {
+    text-align: center;
+    border-radius: 1.5rem;
+    border: none;
+    border-width: 0.5rem;
+    background-color: #468189;
+    box-shadow: 1px 3px #ccc;
+}
+button.carousel-control-prev,
+button.carousel-control-next {
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+    margin-top: 14rem;
+}
+main{
+flex: 1;
+}
+.card {
+    background: white;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    border: 0;
+    border-radius: 1rem;
+ }
+ .card-img,
+.card-img-top {
+    border-top-left-radius: calc(1rem - 1px);
+    border-top-right-radius: calc(1rem - 1px);
+}
+.card h5 {
+    overflow: hidden;
+    height: 55px;
+    font-weight: 300;
+    font-size: 1rem;
+}
+.card h5 a {
+  color: #b01a45;
+  text-decoration: none;
+} 
+.card-img-top {
+    width: 100%;
+    min-height: 250px;
+    max-height: 200px;
+    object-fit: contain;
+    padding: 25px;
+ 
+}
+.card h2 {
+    font-size: 1rem;
+}
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+/***********************/
